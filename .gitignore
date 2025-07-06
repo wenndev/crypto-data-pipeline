@@ -1,0 +1,28 @@
+# Arquivos de ambiente
+.env
+.python-version
+
+# Logs e compilados
+logs/
+airflow/logs/
+dbt/target/
+dbt/logs/
+dbt/dbt_modules/
+__pycache__/
+*.py[cod]
+
+# Arquivos temporários
+*.log
+*.pid
+*.sock
+
+# Dados
+*.parquet
+
+# Docker
+*.pid
+*.sock
+
+# IDEs e editores
+.vscode/
+.idea/
