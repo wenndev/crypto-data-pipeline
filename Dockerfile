@@ -35,7 +35,5 @@ COPY  streamlit_app/ /app/streamlit_app/
 COPY .env /app/.env
 
 # Define o comando padrão
-CMD ["bash", "-c", "streamlit run /app/streamlit_app/app.py"]
-
-
+#CMD ["bash", "-c", "streamlit run /app/streamlit_app/app.py"]
 
